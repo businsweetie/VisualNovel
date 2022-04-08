@@ -10,6 +10,7 @@ import UIKit
 class StartViewController: UIViewController {
 
     @IBOutlet weak var startBtn: UIButton!
+    
     //var nextSlide = "logInVC"
     let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
     //var nextSlide = Settings.getSlideId() == (SlideStatus.startSlide | SlideStatus.logInSlide) ? "logInVC" : "storyVC"
